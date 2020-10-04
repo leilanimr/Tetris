@@ -1,0 +1,31 @@
+:root {
+  --pixel: calc(100vmin / 30);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(10, var(--pixel));
+  min-width: 100%;
+}
+
+.pixel {
+  width: var(--pixel);
+  height: var(--pixel);
+
+  background-color: rgba(1, 255, 255, 0.219);
+  border: 1px black solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.minipixel {
+  width: 50%;
+  height: 50%;
+  
+  border: 2px black solid;
+  border-top-color: white;
+  border-left-color: white;
+}
+
