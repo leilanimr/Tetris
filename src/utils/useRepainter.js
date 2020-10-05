@@ -1,8 +1,8 @@
-import { useState } from "react"
+import { useState, useCallback } from "react"
 
 const useRepainter = () => {
-  const [x, setX] = useState(0)
-  return () => setX(x => x + 1)
+  const setX = useState(0)[1]
+  return useCallback(() => setX(x => x + 1), [setX])
 }
 
 export default useRepainter

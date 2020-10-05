@@ -8,6 +8,10 @@ class RotatedShape {
     this.type = type
   }
 
+  deletePixelHeight(height) {
+    return this.shapes[this.current].deletePixelHeight(height)
+  }
+
   getShape() {
     return this.shapes[this.current]
   }

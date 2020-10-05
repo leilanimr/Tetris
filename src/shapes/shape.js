@@ -7,6 +7,7 @@ const sortBySmallerY = ([x1, y1], [x2, y2]) => y1 - y2
 
 class Shape {
   type = ""
+  pixels = []
 
   constructor(pixels, type) {
     this.pixels = deepCopy(pixels).sort(sortByBiggerX)
@@ -84,6 +85,10 @@ class Shape {
   moveLeft(pieces) {
     if (!this.canMoveLeft(pieces)) return
     this.pixels = this.pixels.map(([x, y]) => [x, y - 1])
+  }
+
+  deletePixelHeight(height) {
+    this.pixels = this.pixels.filter(([x, y]) => x !== height)
   }
 }
 
