@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Tetris_v1/static/css/main.dad78432.chunk.css",
-    "main.js": "/Tetris_v1/static/js/main.3fecacfd.chunk.js",
-    "main.js.map": "/Tetris_v1/static/js/main.3fecacfd.chunk.js.map",
-    "runtime-main.js": "/Tetris_v1/static/js/runtime-main.155d1a07.js",
-    "runtime-main.js.map": "/Tetris_v1/static/js/runtime-main.155d1a07.js.map",
-    "static/js/2.fd2fa731.chunk.js": "/Tetris_v1/static/js/2.fd2fa731.chunk.js",
-    "static/js/2.fd2fa731.chunk.js.map": "/Tetris_v1/static/js/2.fd2fa731.chunk.js.map",
-    "index.html": "/Tetris_v1/index.html",
-    "precache-manifest.3edb5f765d11a73adacf04ea537911ce.js": "/Tetris_v1/precache-manifest.3edb5f765d11a73adacf04ea537911ce.js",
-    "service-worker.js": "/Tetris_v1/service-worker.js",
-    "static/css/main.dad78432.chunk.css.map": "/Tetris_v1/static/css/main.dad78432.chunk.css.map",
-    "static/js/2.fd2fa731.chunk.js.LICENSE.txt": "/Tetris_v1/static/js/2.fd2fa731.chunk.js.LICENSE.txt"
+    "main.css": "/tetris/static/css/main.dad78432.chunk.css",
+    "main.js": "/tetris/static/js/main.3fecacfd.chunk.js",
+    "main.js.map": "/tetris/static/js/main.3fecacfd.chunk.js.map",
+    "runtime-main.js": "/tetris/static/js/runtime-main.0d8747ab.js",
+    "runtime-main.js.map": "/tetris/static/js/runtime-main.0d8747ab.js.map",
+    "static/js/2.fd2fa731.chunk.js": "/tetris/static/js/2.fd2fa731.chunk.js",
+    "static/js/2.fd2fa731.chunk.js.map": "/tetris/static/js/2.fd2fa731.chunk.js.map",
+    "index.html": "/tetris/index.html",
+    "precache-manifest.c7f408d7b08b5c31a3fc64428019c6dd.js": "/tetris/precache-manifest.c7f408d7b08b5c31a3fc64428019c6dd.js",
+    "service-worker.js": "/tetris/service-worker.js",
+    "static/css/main.dad78432.chunk.css.map": "/tetris/static/css/main.dad78432.chunk.css.map",
+    "static/js/2.fd2fa731.chunk.js.LICENSE.txt": "/tetris/static/js/2.fd2fa731.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.155d1a07.js",
+    "static/js/runtime-main.0d8747ab.js",
     "static/js/2.fd2fa731.chunk.js",
     "static/css/main.dad78432.chunk.css",
     "static/js/main.3fecacfd.chunk.js"
