@@ -23,12 +23,12 @@ const App = () => {
 
   useEffect(() => {
     setLevel(parseInt(score / 50))
-  }, [score]) 
+  }, [score])
 
   useEffect(() => {
     pieces.current.forEach(piece => piece.moveX(pieces.current))
     if (!movingPiece.current.canMoveX(pieces.current)) {
-      setSpeed(originalSpeed - (level * 50))
+      setSpeed(originalSpeed - level * 50)
       if (!movingPiece.current.getPixels().some(([x, y]) => x === 0)) {
         const board = getEmptyBoard()
         pieces.current.forEach(piece => piece.getPixels().forEach(([x, y]) => (board[x][y] = piece.type)))
