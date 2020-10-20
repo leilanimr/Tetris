@@ -9,7 +9,7 @@ import "../shapes/shape.css"
 import getEmptyBoard from "../utils/getEmptyBoard"
 import getRandomPiece from "../shapes/catalog"
 
-const originalSpeed = 300
+const originalSpeed = 500
 const App = () => {
   const [speed, setSpeed] = useState(originalSpeed)
   const [level, setLevel] = useState(0)
@@ -87,10 +87,8 @@ const App = () => {
       </section>
 
       <section className="stats">
-        <h3>Timer = {time}</h3>
-        <h3>Score = {score}</h3>
-        <h3>Level = {level}</h3>
-        <h3>Speed = {speed}ms</h3>
+        <h3>Puntuacion = {score}</h3>
+        <h3>Nivel = {level}</h3>
       </section>
     </section>
   )
